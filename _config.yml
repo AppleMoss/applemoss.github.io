@@ -1,0 +1,20 @@
+title: AppleMoss
+description:
+owner: AppleMoss
+first_published: 2018
+email: your-email@domain.com
+baseurl: ""
+url: "https://applemoss.com"
+social:
+  twitter: https://twitter.com/<username>
+  facebook: https://facebook.com/<username>
+  google-plus: https://plus.google.com/u/0/+<username>
+  email: /contact
+  slack: applemoss
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+sass:
+ style: compressed
