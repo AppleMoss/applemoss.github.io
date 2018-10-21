@@ -1,0 +1,71 @@
+//.no-gutters {
+//    margin-right: 0;
+//    margin-left: 0;
+//
+//    > .col,
+//    > [class*="col-"] {
+//        padding-right: 0;
+//        padding-left: 0;
+//    }
+//}
+
+.inner {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.location {
+    height: 274px;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: _palette(accent7, fg);
+    text-shadow: 1px 1px _palette(accent1, bg);
+
+    .title {
+        order: 1;
+        font-size: larger;
+        font-weight: bold;
+        margin-top: 7%;
+        padding-left: 10%;
+    }
+
+    .contact {
+        order: 2;
+        margin-top: 1em;
+        padding-left: 10%;
+    }
+}
+
+.crisp {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#melbourne {
+    background: url("#{$baseurl}/locations/riyadh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#riyadh {
+    background: url("#{$baseurl}/locations/riyadh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#dubai {
+    background: url("#{$baseurl}/locations/riyadh.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#whyus {
+    background-color: _palette(accent1, bg);
+}
+
+#ourway {
+    background-color: transparent;
+}
